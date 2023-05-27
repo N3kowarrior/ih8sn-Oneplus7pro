@@ -7,7 +7,7 @@ How to:
 
 2:Extract repo
 
-3:Open cmd in folder which contains extracted repo
+3:Open cmd in folder which contains extracted repo (ih8sn, push.sh, folder named "etc"
 
 4:paste in 
 
@@ -20,3 +20,9 @@ adb wait-for-device push etc/ih8sn.conf /system/etc/
 adb reboot
 
 5: Enjoy!
+
+
+
+
+Thanks to:https://forum.xda-developers.com/t/guide-ih8sn-pass-safetynet-without-magisk-root.4450323/
+          https://github.com/luk1337/ih8sn

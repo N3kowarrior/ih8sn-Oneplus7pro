@@ -11,7 +11,7 @@ How to:
 
 4:paste in 
 
-adb wait-for-device root (Allow Yes to USB Debugging? to ALWAYS)
+adb wait-for-device root 
 adb wait-for-device remount
 adb wait-for-device push etc/60-ih8sn.sh /system/addon.d/
 adb wait-for-device push ih8sn /system/bin/

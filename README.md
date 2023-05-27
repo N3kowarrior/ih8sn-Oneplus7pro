@@ -3,8 +3,11 @@ Custom config of ih8sn for OP7 pro.
 
 How to:
 1:Download repo
+
 2:Extract repo
+
 3:Open cmd in folder which contains extracted repo
+
 4:paste in 
 adb wait-for-device root (Allow Yes to USB Debugging? to ALWAYS)
 adb wait-for-device remount

@@ -19,7 +19,9 @@ adb wait-for-device push etc/ih8sn.rc /system/etc/init/
 adb wait-for-device push etc/ih8sn.conf /system/etc/
 adb reboot
 
-5: Enjoy!
+5: Delete google play, google framework services data and chache
+
+6: Enjoy!
 
 
 

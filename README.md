@@ -13,7 +13,7 @@ Note: **adb** and **usb debbuging with root** are **required** for procedure.
 
 3:**Open cmd** in folder which **contains** extracted **repo** (ih8sn, push.sh, folder named "etc")
 
-4:paste in to **command** line shell and execute
+4:**paste in** to **command** line shell and execute (you can either one by one or all at once)
 
 adb wait-for-device root 
 adb wait-for-device remount
@@ -23,7 +23,7 @@ adb wait-for-device push etc/ih8sn.rc /system/etc/init/
 adb wait-for-device push etc/ih8sn.conf /system/etc/
 adb reboot
 
-5: Delete google play, google framework services data and chache
+5: **Delete**: google play, google framework services **data and chache**
 
 6: Enjoy!
 

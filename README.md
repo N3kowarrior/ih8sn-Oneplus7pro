@@ -3,17 +3,17 @@ Custom config of ih8sn for OP7 pro, made with keys from lastest ota update.
 Note am not responsible for any damage you can do to your device by not following the guide properly or flashing wrong files. If you have any issue after installation i wont be providing suppport.
 
 
-Note: adb and usb debbuging with root are required for procedure.
+Note: **adb** and **usb debbuging with root** are **required** for procedure.
 
-How to install:
+#How to install:
 -------------------------------------------------------------------------------------------------------------------------
-1:Download repo
+1:Download **repo**
 
 2:Extract repo
 
-3:Open cmd in folder which contains extracted repo (ih8sn, push.sh, folder named "etc"
+3:**Open cmd** in folder which **contains** extracted **repo** (ih8sn, push.sh, folder named "etc")
 
-4:paste in and execute
+4:paste in to **command** line shell and execute
 
 adb wait-for-device root 
 adb wait-for-device remount

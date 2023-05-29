@@ -4,9 +4,9 @@ Note am not responsible for any damage you can do to your device by not followin
 
 
 Note: **adb** and **usb debbuging with root** are **required** for procedure.
-
+-------------------------------------------------------------------------------------------------------------------------
 #How to install:
-
+-------------------------------------------------------------------------------------------------------------------------
 1:Download **repo**
 
 2:Extract repo
@@ -32,6 +32,6 @@ adb reboot
 
 Thanks to:https://forum.xda-developers.com/t/guide-ih8sn-pass-safetynet-without-magisk-root.4450323/
           https://github.com/luk1337/ih8sn
-
+----------------------------------------------------------------------------------------------------------
 
 ![IMG_20230527_065348](https://github.com/N3kowarriorCZenchilada/ih8sn-Oneplus7pro/assets/118403968/8f083b8a-fd2a-45c9-8378-7bad03d7b61c)

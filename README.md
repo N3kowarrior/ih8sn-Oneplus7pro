@@ -6,7 +6,7 @@ Note am not responsible for any damage you can do to your device by not followin
 Note: **adb** and **usb debbuging with root** are **required** for procedure.
 
 #How to install:
--------------------------------------------------------------------------------------------------------------------------
+
 1:Download **repo**
 
 2:Extract repo

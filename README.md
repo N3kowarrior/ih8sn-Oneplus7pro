@@ -7,13 +7,13 @@ Note: **adb** and **usb debbuging with root** are **required** for procedure.
 -------------------------------------------------------------------------------------------------------------------------
 #How to install:
 -------------------------------------------------------------------------------------------------------------------------
--1:Download **repo**
+1:Download **repo**
 
--2:Extract repo
+2:Extract repo
 
--3:**Open cmd** in folder which **contains** extracted **repo** (ih8sn, push.sh, folder named "etc")
+3:**Open cmd** in folder which **contains** extracted **repo** (ih8sn, push.sh, folder named "etc")
 
--4:**paste in** to **command** line shell and execute (you can either one by one or all at once)
+4:**paste in** to **command** line shell and execute (you can either one by one or all at once)
 >adb wait-for-device root  
 >adb wait-for-device remount
 >adb wait-for-device push etc/60-ih8sn.sh /system/addon.d/
@@ -22,9 +22,9 @@ Note: **adb** and **usb debbuging with root** are **required** for procedure.
 >adb wait-for-device push etc/ih8sn.conf /system/etc/
 >adb reboot
 
--5: **Delete**: google play, google framework services **data and chache**
+5: **Delete**: google play, google framework services **data and chache**
 
--6: Enjoy!
+6: Enjoy!
 
 #How to install:
 -------------------------------------------------------------------------------------------------------------------------

@@ -16,7 +16,7 @@ adb wait-for-device push etc/ih8sn.rc /system/etc/init/
 adb wait-for-device push etc/ih8sn.conf /system/etc/
 adb reboot
     
-    Delete the following: Google Play, Google Framework Services data, and cache.
+    Delete chache and data the of following apps: Google Play, Google Framework Services 
     Enjoy!
 
 Create yourself

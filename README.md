@@ -1,5 +1,3 @@
-Certainly! Here's the reformatted version for improved readability:
-
 ## ih8sn for Oneplus7pro
 
 Custom config of ih8sn for OP7 Pro, made with keys from the latest OTA update. Please note that I am not responsible for any damage that may occur to your device if you do not follow the guide properly or flash wrong files. If you encounter any issues after installation, I will not be providing support.
@@ -29,4 +27,4 @@ adb reboot
 
 6. Enjoy!
 
-Please ensure that you have adb and USB debugging with root access enabled before proceeding with the installation. Feel free to reach out if you have any further questions.
+Please ensure that you have adb and USB debugging with root access enabled before proceeding with the installation.

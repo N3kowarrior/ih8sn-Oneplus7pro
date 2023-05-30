@@ -100,6 +100,6 @@ Sure! Here's the reformatted version for better readability:
 
 Related/Sources
 -----------------------------
-    Ih8sn
-    xda: ih8sn - Pass SafetyNet without Magisk/Root
-    xda: How to Pass SafetyNet on Android
+   Ih8sn
+   xda: ih8sn - Pass SafetyNet without Magisk/Root
+   xda: How to Pass SafetyNet on Android

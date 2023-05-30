@@ -1,6 +1,6 @@
 # ih8sn-Oneplus7pro
-Custom config of ih8sn for OP7 pro, made with keys from lastest ota update.
-Note am not responsible for any damage you can do to your device by not following the guide properly or flashing wrong files. If you have any issue after installation i wont be providing suppport.
+>Custom config of ih8sn for OP7 pro, made with keys from lastest ota update.
+-Note am not responsible for any damage you can do to your device by not following the guide properly or flashing wrong files. If you have any issue after installation i wont be providing suppport.
 
 
 Note: **adb** and **usb debbuging with root** are **required** for procedure.

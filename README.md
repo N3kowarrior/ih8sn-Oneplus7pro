@@ -1,29 +1,23 @@
-# ih8sn-Oneplus7pro
->Custom config of ih8sn for OP7 pro, made with keys from lastest ota update.
->Am not responsible for any damage you can do to your device by not following the guide properly or flashing wrong files. If you have any issue after installation i wont be providing suppport.
+ih8sn-Oneplus7pro
 
-#How to install:
--------------------------------------------------------------------------------------------------------------------------
-Note: **adb** and **usb debbuging with root** are **required** for procedure.
+Custom config of ih8sn for OP7 Pro, made with keys from the latest OTA update. Please note that I am not responsible for any damage that may occur to your device if you do not follow the guide properly or flash wrong files. If you encounter any issues after installation, I will not be providing support.
+How to Install:
 
-1:Download **repo**
+Note: adb and USB debugging with root access are required for this procedure.
 
-2:**Extract** repo
-
-3:**Open cmd** in folder which **contains** extracted **repo** (ih8sn, push.sh, folder named "etc")
-
-4:**paste in** to **command** line shell and execute (you can either one by one or all at once)
->adb wait-for-device root  
->adb wait-for-device remount
->adb wait-for-device push etc/60-ih8sn.sh /system/addon.d/
->adb wait-for-device push ih8sn /system/bin/
->adb wait-for-device push etc/ih8sn.rc /system/etc/init/
->adb wait-for-device push etc/ih8sn.conf /system/etc/
->adb reboot
-
-5: **Delete**: google play, google framework services **data and chache**
-
-6: Enjoy!
+    Download the repository.
+    Extract the repository.
+    Open the command prompt in the folder that contains the extracted repository (ih8sn, push.sh, folder named "etc").
+    Paste the following commands into the command line shell and execute them (either one by one or all at once):
+adb wait-for-device root
+adb wait-for-device remount adb wait-for-device push etc/60-ih8sn.sh /system/addon.d/
+adb wait-for-device push ih8sn /system/bin/
+adb wait-for-device push etc/ih8sn.rc /system/etc/init/
+adb wait-for-device push etc/ih8sn.conf /system/etc/
+adb reboot
+    
+    Delete the following: Google Play, Google Framework Services data, and cache.
+    Enjoy!
 
 Create yourself
 

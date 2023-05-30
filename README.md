@@ -61,8 +61,8 @@ Proof of work
 >POCO/surya_global/surya:12/RKQ1.211019.001/V14.0.1.0.SJGMIXM:user/release-keys
 >Note:Names of variables could vary but you should recognise them easily.
 
-8:After second forward slash is device name so write it on line (in ih8sn.conf): PRODUCT_NAME= .
->like this PRODUCT_NAME=surya
+8:After second forward slash is device name so write it on line (in ih8sn.conf)containing: PRODUCT_NAME= .
+>PRODUCT_NAME=surya
 
 9:Next to that is number (separeted by double colon) add it to line BUILD_VERSION_RELEASE=  and BUILD_VERSION_RELEASE_OR_CODENAME=.
 >BUILD_VERSION_RELEASE=12

@@ -100,6 +100,11 @@ Sure! Here's the reformatted version for better readability:
 
 ## Related/Sources
    [Ih8sn](https://github.com/luk1337/ih8sn)
+   
    [xda: ih8sn - Pass SafetyNet without Magisk/Root](https://forum.xda-developers.com/t/guide-ih8sn-pass-safetynet-without-magisk-root.4450323/)
-   [xda: How to Pass SafetyNet on Android](
-xda:https://www.xda-developers.com/how-to-pass-safetynet-android/?newsletter_popup=1)
+   
+   [xda: How to Pass SafetyNet on Android](https://www.xda-developers.com/how-to-pass-safetynet-android/?newsletter_popup=1)
+
+
+## Key words 
+>SafetyNet bypass, Device signature spoofing, Anti-SafetyNet, Safetynet workaround, non-root, no root, Device fingerprint >manipulation, Safetynet evasion, Spoofing Safetynet checks, Safetynet bypass for custom ROMs, Lineage OS, Oneplus, Oneplus 7 pro, Create your own, 

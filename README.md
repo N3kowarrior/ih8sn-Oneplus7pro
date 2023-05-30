@@ -2,12 +2,36 @@
 
 Custom config of ih8sn for OP7 Pro, made with keys from the latest OTA update. Please note that I am not responsible for any damage that may occur to your device if you do not follow the guide properly or flash wrong files. If you encounter any issues after installation, I will not be providing support.
 
-### How to install
+### Recovery installation
+
+**Note**: `adb`, USB debugging enabled and Lineage OS/Custom recovery are required for the procedure.
+
+1. Download the release.
+2. Plug your device to your computer.
+3. Open command line and type in:
+```shell
+adb reboot recovery
+```
+4. After your device is in recovery paste in shell:
+5. Click Apply Update.
+6. Paste in cmd:
+```shell
+adb sideload path/to/zip
+```
+7. Confirm installation of not signed update.
+8. Reboot your device.
+9. Delete data and cache of the following:
+   - Google Play
+   - Google Framework Services
+
+10. Enjoy!
+
+### Manual installation
 
 **Note**: `adb` and USB debugging with root access are required for the procedure.
 
-1. Download the repository.
-2. Extract the repository.
+1. Download the release.
+2. Extract the release.
 3. Open the command prompt in the folder that contains the extracted repository (`ih8sn`, `push.sh`, and the folder named "etc").
 4. Paste the following commands into the command line shell and execute them (you can execute them one by one or all at once):
 

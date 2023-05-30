@@ -13,14 +13,20 @@ Note: ADB and USB debugging with root access are required for the procedure.
     shell
 
 adb wait-for-device root
+
 adb wait-for-device remount
+
 adb wait-for-device push etc/60-ih8sn.sh /system/addon.d/
+
 adb wait-for-device push ih8sn /system/bin/
+
 adb wait-for-device push etc/ih8sn.rc /system/etc/init/
+
 adb wait-for-device push etc/ih8sn.conf /system/etc/
+
 adb reboot
 
-Delete: Google Play, Google Framework Services data, and cache.
+Delete data and chache of: Google Play, Google Framework Services data, and cache.
 
 Enjoy!
 

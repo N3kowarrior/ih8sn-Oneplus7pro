@@ -26,56 +26,73 @@ Note: **adb** and **usb debbuging with root** are **required** for procedure.
 6: Enjoy!
 
 
-#Create yourself
--------------------------------------------------------------------------------------------------------------------------
-1:[Download](https://github.com/luk1337/ih8sn/releases/tag/latest) lastest ih8sn release and extract it.
+Create yourself
+----------------------------------------------------------------------
 
->aarch64 is armv8
+    Download the latest ih8sn release from here and extract it.
 
-2:**Navigate to system/etc** and **open ih8sn.conf** with your favorite text editor.
+        Note: If you have an aarch64 architecture, it is armv8.
 
-3:Paste in:
+    Navigate to system/etc and open ih8sn.conf with your favorite text editor.
 
->BUILD_FINGERPRINT=
->BUILD_DESCRIPTION=
->BUILD_SECURITY_PATCH_DATE=
->BUILD_VERSION_RELEASE=
->BUILD_VERSION_RELEASE_OR_CODENAME=
->MANUFACTURER_NAME=
->PRODUCT_NAME=
->BUILD_TAGS=release-keys
->BUILD_TYPE=user
->DEBUGGABLE=0
+    Paste the following lines into ih8sn.conf:
 
-4:Download and extract lastest stock ota or full firmware for your device.
+    makefile
 
-5:Navigate to META-INF/com/android/
+BUILD_FINGERPRINT=
+BUILD_DESCRIPTION=
+BUILD_SECURITY_PATCH_DATE=
+BUILD_VERSION_RELEASE=
+BUILD_VERSION_RELEASE_OR_CODENAME=
+MANUFACTURER_NAME=
+PRODUCT_NAME=
+BUILD_TAGS=release-keys
+BUILD_TYPE=user
+DEBUGGABLE=0
 
-6:Open metadata with your favorite text editor.
+Download and extract the latest stock OTA or full firmware for your device.
 
-7:Locate line with similair text like this :
+Navigate to META-INF/com/android/.
 
->POCO/surya_global/surya:12/RKQ1.211019.001/V14.0.1.0.SJGMIXM:user/release-keys
->Note:Names of variables could vary but you should recognise them easily.
+Open metadata with your favorite text editor.
 
-8:After second forward slash is device name so write it on line (in ih8sn.conf)containing: PRODUCT_NAME= .
->PRODUCT_NAME=surya
+Locate the line with similar text like this:
 
-9:Next to that is number (separeted by double colon) add it to line BUILD_VERSION_RELEASE=  and BUILD_VERSION_RELEASE_OR_CODENAME=.
->BUILD_VERSION_RELEASE=12
+    POCO/surya_global/surya:12/RKQ1.211019.001/V14.0.1.0.SJGMIXM:user/release-keys
 
-10:Paste the whole "POCO/surya_global/surya:12/RKQ1.211019.001/V14.0.1.0.SJGMIXM:user/release-keys" to line BUILD_FINGERPRINT=.
->BUILD_FINGERPRINT=POCO/surya_global/surya:12/RKQ1.211019.001/V14.0.1.0.SJGMIXM:user/release-keys
+    Note: Names of variables could vary, but you should recognize them easily.
 
-11:Build description is text after third foward slash.
->BUILD_DESCRIPTION=V14.0.1.0.SJGMIXM
+After the second forward slash is the device name. Write it on the line (in ih8sn.conf) containing PRODUCT_NAME=.
 
-12:Locate BUILD_SECURITY_PATCH_DATE= in manifest and paste date after it to line containing BUILD_SECURITY_PATCH_DATE=.
->BUILD_SECURITY_PATCH_DATE=2023-02-01
+    PRODUCT_NAME=surya
 
-13:Now just type name of company which created your smartphone to MANUFACTURER_NAME=.
->MANUFACTURER_NAME=Xiaomi
+Next to that is a number (separated by double colon). Add it to the lines BUILD_VERSION_RELEASE= and BUILD_VERSION_RELEASE_OR_CODENAME=.
 
-14:Save ih8sn.conf
+    makefile
 
-15:Continue with installation above from 3 step
+    BUILD_VERSION_RELEASE=12
+
+Paste the whole "POCO/surya_global/surya:12/RKQ1.211019.001/V14.0.1.0.SJGMIXM:user/release-keys" to the line BUILD_FINGERPRINT=.
+
+    ruby
+
+    BUILD_FINGERPRINT=POCO/surya_global/surya:12/RKQ1.211019.001/V14.0.1.0.SJGMIXM:user/release-keys
+
+Build description is the text after the third forward slash.
+
+    BUILD_DESCRIPTION=V14.0.1.0.SJGMIXM
+
+Locate BUILD_SECURITY_PATCH_DATE= in the manifest and paste the date after it to the line containing BUILD_SECURITY_PATCH_DATE=.
+
+    BUILD_SECURITY_PATCH_DATE=2023-02-01
+
+Now, just type the name of the company that created your smartphone to MANUFACTURER_NAME=.
+
+    MANUFACTURER_NAME=Xiaomi
+
+Save ih8sn.conf.
+
+Continue with the installation starting from step 3 above.
+
+#Search words ignore this
+Oneplus Oneplus 7 pro Ih

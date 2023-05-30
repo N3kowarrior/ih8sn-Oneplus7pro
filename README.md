@@ -98,3 +98,8 @@ Sure! Here's the reformatted version for better readability:
 
 15. Continue with the installation starting from step 3 above.
 
+Related/Sources
+-----------------------------
+    Ih8sn
+    xda: ih8sn - Pass SafetyNet without Magisk/Root
+    xda: How to Pass SafetyNet on Android

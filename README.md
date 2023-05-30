@@ -32,8 +32,11 @@ Proof of work
 #Create yourself
 -------------------------------------------------------------------------------------------------------------------------
 1:[Download](https://github.com/luk1337/ih8sn/releases/tag/latest) lastest ih8sn release and extract it.
+
 >aarch64 is armv8
+
 2:**Navigate to system/etc** and **open ih8sn.conf** with your favorite text editor.
+
 3:Paste in:
 
 >BUILD_FINGERPRINT=
@@ -48,22 +51,34 @@ Proof of work
 >DEBUGGABLE=0
 
 4:Download and extract lastest stock ota or full firmware for your device.
+
 5:Navigate to META-INF/com/android/
+
 6:Open metadata with your favorite text editor.
+
 7:Locate line with similair text like this :
+
 >POCO/surya_global/surya:12/RKQ1.211019.001/V14.0.1.0.SJGMIXM:user/release-keys
-Note:Names of variables could vary but you should recognise them easily.
+>Note:Names of variables could vary but you should recognise them easily.
+
 8:After second forward slash is device name so write it on line (in ih8sn.conf): PRODUCT_NAME= .
 >like this PRODUCT_NAME=surya
+
 9:Next to that is number (separeted by double colon) add it to line BUILD_VERSION_RELEASE=  and BUILD_VERSION_RELEASE_OR_CODENAME=.
 >BUILD_VERSION_RELEASE=12
+
 10:Paste the whole "POCO/surya_global/surya:12/RKQ1.211019.001/V14.0.1.0.SJGMIXM:user/release-keys" to line BUILD_FINGERPRINT=.
 >BUILD_FINGERPRINT=POCO/surya_global/surya:12/RKQ1.211019.001/V14.0.1.0.SJGMIXM:user/release-keys
+
 11:Build description is text after third foward slash.
 >BUILD_DESCRIPTION=V14.0.1.0.SJGMIXM
+
 12:Locate BUILD_SECURITY_PATCH_DATE= in manifest and paste date after it to line containing BUILD_SECURITY_PATCH_DATE=.
 >BUILD_SECURITY_PATCH_DATE=2023-02-01
+
 13:Now just type name of company which created your smartphone to MANUFACTURER_NAME=.
 >MANUFACTURER_NAME=Xiaomi
+
 14:Save ih8sn.conf
+
 15:Continue with installation above from 3 step

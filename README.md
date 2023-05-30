@@ -98,4 +98,3 @@ Sure! Here's the reformatted version for better readability:
 
 15. Continue with the installation starting from step 3 above.
 
-This version breaks down each step into one line for easy readability and copy-pasting.

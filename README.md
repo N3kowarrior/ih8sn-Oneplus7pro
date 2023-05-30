@@ -34,7 +34,7 @@ Sure! Here's the reformatted version for better readability:
 ## Create for yourself:
 
 1. [Download](https://github.com/luk1337/ih8sn/releases/tag/latest) the latest ih8sn release and extract it.
-   > Note: For aarch64, use armv8.
+   > Note: aarch64 stands for Armv8.
 
 2. Navigate to `system/etc` and open `ih8sn.conf` with your favorite text editor.
 

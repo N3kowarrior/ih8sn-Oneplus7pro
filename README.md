@@ -4,7 +4,6 @@ Custom config of ih8sn for OP7 Pro, made with keys from the latest OTA update. P
 How to Install:
 
 Note: adb and USB debugging with root access are required for this procedure.
-
     Download the repository.
     Extract the repository.
     Open the command prompt in the folder that contains the extracted repository (ih8sn, push.sh, folder named "etc").

@@ -25,9 +25,7 @@ Note: **adb** and **usb debbuging with root** are **required** for procedure.
 
 6: Enjoy!
 
-
 Create yourself
-----------------------------------------------------------------------
 
     Download the latest ih8sn release from here and extract it.
 
@@ -36,9 +34,6 @@ Create yourself
     Navigate to system/etc and open ih8sn.conf with your favorite text editor.
 
     Paste the following lines into ih8sn.conf:
-
-    makefile
-
 BUILD_FINGERPRINT=
 BUILD_DESCRIPTION=
 BUILD_SECURITY_PATCH_DATE=
@@ -49,7 +44,6 @@ PRODUCT_NAME=
 BUILD_TAGS=release-keys
 BUILD_TYPE=user
 DEBUGGABLE=0
-
 Download and extract the latest stock OTA or full firmware for your device.
 
 Navigate to META-INF/com/android/.
@@ -57,27 +51,18 @@ Navigate to META-INF/com/android/.
 Open metadata with your favorite text editor.
 
 Locate the line with similar text like this:
-
-    POCO/surya_global/surya:12/RKQ1.211019.001/V14.0.1.0.SJGMIXM:user/release-keys
-
-    Note: Names of variables could vary, but you should recognize them easily.
+"POCO/surya_global/surya:12/RKQ1.211019.001/V14.0.1.0.SJGMIXM:user/release-keys"
+"Note: Names of variables could vary, but you should recognize them easily."
 
 After the second forward slash is the device name. Write it on the line (in ih8sn.conf) containing PRODUCT_NAME=.
 
     PRODUCT_NAME=surya
 
 Next to that is a number (separated by double colon). Add it to the lines BUILD_VERSION_RELEASE= and BUILD_VERSION_RELEASE_OR_CODENAME=.
-
-    makefile
-
-    BUILD_VERSION_RELEASE=12
+BUILD_VERSION_RELEASE=12
 
 Paste the whole "POCO/surya_global/surya:12/RKQ1.211019.001/V14.0.1.0.SJGMIXM:user/release-keys" to the line BUILD_FINGERPRINT=.
-
-    ruby
-
-    BUILD_FINGERPRINT=POCO/surya_global/surya:12/RKQ1.211019.001/V14.0.1.0.SJGMIXM:user/release-keys
-
+BUILD_FINGERPRINT=POCO/surya_global/surya:12/RKQ1.211019.001/V14.0.1.0.SJGMIXM:user/release-keys
 Build description is the text after the third forward slash.
 
     BUILD_DESCRIPTION=V14.0.1.0.SJGMIXM
@@ -95,4 +80,4 @@ Save ih8sn.conf.
 Continue with the installation starting from step 3 above.
 
 #Search words ignore this
-Oneplus Oneplus 7 pro Ih
+>Oneplus Oneplus 7pro hide root root ih8sn google certification ctf 

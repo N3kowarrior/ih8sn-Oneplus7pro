@@ -6,7 +6,7 @@ Custom config of ih8sn for OP7 Pro, made with keys from the latest OTA update. P
 
 **Note**: `adb`, USB debugging enabled and Lineage OS/Custom recovery are required for the procedure.
 
-1. Download the release.
+1. [Download](https://github.com/N3kowarriorCZenchilada/ih8sn-Oneplus7pro/releases/tag/main) the release.
 2. Plug your device to your computer.
 3. Open command line and type in:
 ```shell
@@ -30,7 +30,7 @@ adb sideload path/to/zip
 
 **Note**: `adb` and USB debugging with root access are required for the procedure.
 
-1. Download the release.
+1. [Download](https://github.com/N3kowarriorCZenchilada/ih8sn-Oneplus7pro/releases/tag/main) the release.
 2. Extract the release.
 3. Open the command prompt in the folder that contains the extracted repository (`ih8sn`, `push.sh`, and the folder named "etc").
 4. Paste the following commands into the command line shell and execute them (you can execute them one by one or all at once):

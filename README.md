@@ -9,7 +9,7 @@ Note: **adb** and **usb debbuging with root** are **required** for procedure.
 -------------------------------------------------------------------------------------------------------------------------
 1:Download **repo**
 
-2:Extract repo
+2:**Extract** repo
 
 3:**Open cmd** in folder which **contains** extracted **repo** (ih8sn, push.sh, folder named "etc")
 
@@ -26,4 +26,6 @@ Note: **adb** and **usb debbuging with root** are **required** for procedure.
 
 6: Enjoy!
 
+Proof of work
+----------------------------------------------------------------------------------------------------------------------------
 ![IMG_20230527_065348](https://github.com/N3kowarriorCZenchilada/ih8sn-Oneplus7pro/assets/118403968/8f083b8a-fd2a-45c9-8378-7bad03d7b61c)

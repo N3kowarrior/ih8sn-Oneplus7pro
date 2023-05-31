@@ -8,7 +8,7 @@ Custom config of ih8sn for OP7 Pro, made with keys from the latest OTA update. P
 
 1. [Download](https://github.com/N3kowarriorCZenchilada/ih8sn-Oneplus7pro/releases/tag/main) the release.
 2. Plug your device to your computer.
-3. Open command line and type in:
+3. Open command line and type in and execute:
 ```shell
 adb reboot recovery
 ```
@@ -33,7 +33,7 @@ adb sideload path/to/zip
 1. [Download](https://github.com/N3kowarriorCZenchilada/ih8sn-Oneplus7pro/releases/tag/main) the release.
 2. Extract the release.
 3. Open the command prompt in the folder that contains the extracted repository (`ih8sn`, `push.sh`, and the folder named "etc").
-4. Paste the following commands into the command line shell and execute them (you can execute them one by one or all at once):
+4.Paste the following commands into the command line shell and execute them (you can execute them one by one or all at once):
 
 ```shell
 adb wait-for-device root
@@ -62,7 +62,7 @@ Sure! Here's the reformatted version for better readability:
 
 2. Navigate to `system/etc` and open `ih8sn.conf` with your favorite text editor.
 
-3. Paste the following lines into `ih8sn.conf`:
+3.Remove file contents and paste the following lines into `ih8sn.conf`:
    ```
    BUILD_FINGERPRINT=
    BUILD_DESCRIPTION=

@@ -12,9 +12,9 @@ Custom config of ih8sn for OP7 Pro, made with keys from the latest OTA update. P
 ```shell
 adb reboot recovery
 ```
-4. After your device is in recovery paste in shell:
-5. Click Apply Update.
-6. Paste in cmd:
+
+4. Click Apply Update.
+5. Paste in cmd:
 ```shell
 adb sideload path/to/zip
 ```
